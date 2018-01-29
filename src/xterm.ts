@@ -7,4 +7,8 @@
 
 import { Terminal } from './Terminal';
 
+//add terminado
+import * as terminado from './addons/terminado/terminado';
+Terminal.applyAddon(terminado);
+
 module.exports = Terminal;
